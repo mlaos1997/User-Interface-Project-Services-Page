@@ -46,7 +46,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: white;
 }
 
 html, body {
@@ -64,6 +65,10 @@ h1, h2, h3, h4, h5 {
  body {
 	width: 876px;
 	margin: 0 auto;
+}
+
+button:hover {
+	cursor: pointer;
 }
 
 header {
@@ -139,7 +144,6 @@ footer .home-footer{
 /* Services Page */
 
 .services {
-	border: 1px solid red;
 	padding: 10px 0;
 }
 
@@ -152,7 +156,6 @@ footer .home-footer{
 	justify-content: space-between;
 	display: flex;
 	flex-wrap: wrap;
-	border: 1px solid yellow;
 }
 
 .grid-item {
@@ -160,13 +163,11 @@ footer .home-footer{
 	flex-direction: column;
 	justify-content: space-between;
 	width: 48%;
-	border: 1px solid red;
 	margin-bottom: 25px;
 }
 
 .service-footer {
 	display: flex;
-	border: 1px solid red;
 	align-items: center;
 	justify-content: space-between;
 }
@@ -174,7 +175,6 @@ footer .home-footer{
 .footer-content {
 	display: flex;
 	width: 50%;
-	border: 1px solid orange;
 	flex-direction: column;
 	height: 300px;
 }
